@@ -38,6 +38,9 @@ Git branch #Despliega las ramas del repositorio.
 Git checkout [nombreDeRama] #Moving us from the current branch, to the one specified at the end of the command.
 Git checkout -b [RamaNueva] #crea la [RamaNueva] y la establece como la rama actual
 
+Git merge [RamaExterna] #combina una rama [RamaExterna] con la rama actual
+
+Git branch -d [RamaASerEliminada] #Elimina una rama
 
 
 
