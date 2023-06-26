@@ -1,0 +1,50 @@
+#Comandos de Git
+Git --version # Apropiado para saver si git esta instalado.
+
+Git config --global user.name ["jose-rd] #git usa esta informacion para identificar quien hizo los cambioss
+Git config --global user.email ["textodigital@outlook.com"] #--global establece este id para todos los repositorio. En removemos --global, el id solo se establece para el repositorio acgtual.
+
+Git status #Files may have two status: Tracked and Untracked.
+Git status --shor #informacion compacta
+
+        Short status flags are:
+
+        ?? - Untracked files
+        A - Files added to stage
+        M - Modified files
+        D - Deleted files
+
+#Lets say there are 3 areas: Working directory, Staging Area, Commited files(Repository)
+
+Git add [fileName] #Agrega el archivo especificado al staggin area.
+Git add --all or Git add . #Agrega todos los files actuales al statgging area. Todos (Agregados,modified,deleted,Untracked).
+Git add -A #shorhand command for Git Add --all
+
+Git commit -m "My primer commit"
+
+Git commit -a -m "Pasa arhivos directamente del working-directory al commit(repositorio)" Archivos no por el staggin area. No se recomienda.
+             Los archivos Untracked no son commited. Solos los A(add or new), M(modified), D(deleted)
+
+Git [command] -help # Display con CONSOLE help for a specific coomand
+Git [command] --help # Display con BROWSER help for a specific coomand
+
+Git help --all # Display help for all possible command
+
+git log #Despliega todos los commits realizados. (El historial de commits)
+
+Git branch [nombreDeRamaNueva] #Nueva rama, copia del proyecto principal  
+Git branch #Despliega las ramas del repositorio.
+
+Git checkout [nombreDeRama] #Moving us from the current branch, to the one specified at the end of the command.
+Git checkout -b [RamaNueva] #crea la [RamaNueva] y la establece como la rama actual
+
+Git merge [RamaExterna] #combina una rama [RamaExterna] con la rama actual
+
+Git branch -d [RamaASerEliminada] #Elimina una rama
+
+
+
+
+
+
+
