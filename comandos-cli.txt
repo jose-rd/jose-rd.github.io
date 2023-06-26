@@ -1,0 +1,11 @@
+#Comandos generales (DOS) del CLI
+cd [nombreDirectorio] # cambia a un directorio especificado
+cd .. #retroce una posicion dentro del arbol de directorios
+
+mkdir # crea un directorio
+ls # lista los directorios y archivos dentro de la posicion actual
+
+Shift + G, #va al final de un archivo desplegandose en consolo #val al G(grano)
+q # exit, quit, sale de un proceso iniciado en consolo.
+
+
