@@ -17,7 +17,7 @@ Git status --shor #informacion compacta
 #Lets say there are 3 areas: Working directory, Staging Area, Commited files(Repository)
 
 Git add [fileName] #Agrega el archivo especificado al staggin area.
-Git add --all or Git add . #Agrega todos los files actuales al statgging area.
+Git add --all or Git add . #Agrega todos los files actuales al statgging area. Todos (Agregados,modified,deleted,Untracked).
 Git add -A #shorhand command for Git Add --all
 
 Git commit -m "My primer commit"
@@ -36,6 +36,9 @@ Git branch [nombreDeRamaNueva] #Nueva rama, copia del proyecto principal
 Git branch #Despliega las ramas del repositorio.
 
 Git checkout [nombreDeRama] #Moving us from the current branch, to the one specified at the end of the command.
+Git checkout -b [RamaNueva] #crea la [RamaNueva] y la establece como la rama actual
+
+
 
 
 
